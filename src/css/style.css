@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100vh;
+  background: url(image-header.jpg);
+  background-size: cover;
+  padding: 30px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.btn {
+  padding: 14px 24px;
+  border-radius: 25px;
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: "Barlow";
+  font-weight: bold;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 56px;
+  color: #fff;
+  padding-bottom: 250px;
+  letter-spacing: 20px;
+}
+
+.section-transform-wrapper,
+.section-stand-wrapper {
+  display: flex;
+}
+
+.section-transform-content {
+  padding: 0 10vw;
+  align-self: center;
+  flex: 0 0 50%;
+}
+
+.heading-secondary {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: #212d3d;
+}
+
+.section-transform-text,
+.section-stand-text {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  font-family: "Barlow", sans-serif;
+  line-height: 40px;
+  color: #99989e;
+}
+
+.section-transfrom-image img {
+  width: 100%;
+  display: block;
+}
+
+.btn-primary {
+  font-family: "Fraunces", serif;
+  font-size: 1.4rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+.btn-yellow {
+  border-bottom: 3px solid #fad400;
+}
+
+.btn-red {
+  border-bottom: 3px solid #ff7364;
+  align-self: flex-start;
+}
+
+.section-stand-image {
+  flex: 0 0 50%;
+}
+
+.section-stand-image img {
+  flex: 0 0 50%;
+  width: 100%;
+  display: block;
+}
+
+.section-stand-content {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+.section-projects-wrapper {
+  display: flex;
+}
+
+.section-projects-image {
+  flex: 0 0 50%;
+}
+
+.section-project-photo {
+  width: 100%;
+  display: block;
+  flex: 0 0 50%;
+}
+
+.heading-tersier {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Fraunces", sans-serif;
+  color: #212d3d;
+  margin-bottom: 2rem;
+}
+
+.graphic-text-paragraph {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 10vw;
+  font-family: "Barlow", serif;
+  color: #25564b;
+}
+
+.photography-text-paragraph {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 10vw;
+  font-family: "Barlow", serif;
+  color: #166284;
+}
+
+.graphic-text,
+.photography-text {
+  margin-top: -12rem;
+}
+
+.testimoni {
+  margin: 10rem 0;
+  height: 60vh;
+}
+
+.heading-four {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #99989e;
+  font-family: "Fraunces";
+  margin: 10rem;
+  letter-spacing: 1rem;
+}
+
+.testimoni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.testimoni-clients-1,
+.testimoni-clients-2,
+.testimoni-clients-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimoni-clients-1-photo,
+.testimoni-clients-2-photo,
+.testimoni-clients-3-photo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.testimoni-clients-1-text,
+.testimoni-clients-2-text,
+.testimoni-clients-3-text {
+  font-size: 1.5rem;
+  font-family: "Barlow", serif;
+  color: #99989e;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.name-clients {
+  font-size: 1.5rem;
+  font-family: "Fraunces";
+  color: #212d3d;
+  margin-bottom: 0.5rem;
+}
+
+.job-clients {
+  font-family: "Barlow";
+  font-size: 1rem;
+  color: #99989e;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.gallery-images-1,
+.gallery-images-2,
+.gallery-images-3,
+.gallery-images-4 {
+  width: 100%;
+}
+
+.footer {
+  height: 50vh;
+  background-color: #458c70;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-five {
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #25564b;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+}
+
+.footer-item {
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  margin-right: 3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #25564b;
+  font-family: "Barlow";
+}
+.footer-media {
+  display: flex;
+  font-size: 3rem;
+}
+
+.footer-logo {
+  margin-right: 3rem;
+}
