@@ -1,1 +1,195 @@
 /* ini akan berisi style untuk responsive */
+@media all and (max-width: 600px) {
+  /* navbar */
+  .navbar {
+    width: 100%;
+    position: relative;
+  }
+  nav img {
+    margin: 20px;
+  }
+
+  .menu-toggle {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  .triangle {
+    display: none;
+    position: absolute;
+    border-bottom: 30px solid white;
+    border-left: 30px solid transparent;
+    right: 5%;
+    top: 100%;
+  }
+
+  .triangle.active {
+    display: flex;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 130%;
+    width: 90%;
+    z-index: 1;
+    left: 5%;
+    box-sizing: border-box;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .btn {
+    background-color: rgb(253, 237, 95);
+    width: 60%;
+    align-self: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    margin: auto;
+    color: #99989e;
+    margin: 20px 0;
+  }
+
+  /* hero banner */
+
+  .hero-banner {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  /* section transform */
+  .transform {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .transform-text {
+    width: 100%;
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .transform-text h1,
+  .stand-text h1 {
+    font-size: 2rem;
+  }
+
+  .transform-text p,
+  .stand-text p {
+    font-size: 1rem;
+  }
+
+  .stand-text a {
+    text-align: center;
+  }
+
+  .transform-text-wrapper {
+    order: 2;
+  }
+
+  .transform-image {
+    order: 1;
+  }
+
+  /* section stand */
+
+  .stand {
+    display: block;
+  }
+
+  .stand-text {
+    width: 100%;
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  /* section project */
+  .project {
+    flex-direction: column;
+  }
+
+  .project-1,
+  .project-2 {
+    background-position: center;
+  }
+
+  .project-1-text,
+  .project-2-text {
+    margin: 25rem auto 0;
+  }
+
+  .project-1-text h1,
+  .project-2-text h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .project-1-text p,
+  .project-2-text p {
+    font-size: 0.9rem;
+    padding-bottom: 5rem;
+  }
+
+  /* testimoni */
+  .testi-1,
+  .testi-2,
+  .testi-3 {
+    width: 100%;
+  }
+  .testi-container {
+    flex-direction: column;
+  }
+  /* Gallery */
+  .gallery-images {
+    flex-wrap: wrap;
+  }
+
+  .gallery-images-1,
+  .gallery-images-2,
+  .gallery-images-3,
+  .gallery-images-4 {
+    width: 50%;
+  }
+
+  /* footer */
+  .footer-item {
+    font-size: 1rem;
+  }
+}
