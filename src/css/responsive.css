@@ -140,6 +140,12 @@
     justify-content: center;
   }
 
+  .underline,
+  .underline-1 {
+    left: 26%;
+    bottom: 22%;
+  }
+
   /* section project */
   .project {
     flex-direction: column;
